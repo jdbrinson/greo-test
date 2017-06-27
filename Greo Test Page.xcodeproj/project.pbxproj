@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		076023311EE9C3110019C704 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076023301EE9C3110019C704 /* AppDelegate.swift */; };
+		076023331EE9C3110019C704 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076023321EE9C3110019C704 /* ViewController.swift */; };
+		076023361EE9C3110019C704 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 076023341EE9C3110019C704 /* Main.storyboard */; };
+		0760233B1EE9C3110019C704 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 076023391EE9C3110019C704 /* LaunchScreen.storyboard */; };
+		077ADAF51EF211BB005A5C2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 077ADAF41EF211BB005A5C2C /* Assets.xcassets */; };
+		07BCC2E51EEA00AC00FD0BD8 /* GreoFollowerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCC2E41EEA00AC00FD0BD8 /* GreoFollowerTableViewCell.swift */; };
+		07BCC2E71EEB437500FD0BD8 /* GreoFollowersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCC2E61EEB437500FD0BD8 /* GreoFollowersTableViewController.swift */; };
+		07BCC2E91EEB464900FD0BD8 /* My_Greo_User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCC2E81EEB464900FD0BD8 /* My_Greo_User.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0760232D1EE9C3110019C704 /* Greo Test Page.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Greo Test Page.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		076023301EE9C3110019C704 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		076023321EE9C3110019C704 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		076023351EE9C3110019C704 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0760233A1EE9C3110019C704 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0760233C1EE9C3110019C704 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		077ADAF41EF211BB005A5C2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07BCC2E41EEA00AC00FD0BD8 /* GreoFollowerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreoFollowerTableViewCell.swift; sourceTree = "<group>"; };
+		07BCC2E61EEB437500FD0BD8 /* GreoFollowersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreoFollowersTableViewController.swift; sourceTree = "<group>"; };
+		07BCC2E81EEB464900FD0BD8 /* My_Greo_User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = My_Greo_User.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0760232A1EE9C3110019C704 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		076023241EE9C3110019C704 = {
+			isa = PBXGroup;
+			children = (
+				0760232F1EE9C3110019C704 /* Greo Test Page */,
+				0760232E1EE9C3110019C704 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0760232E1EE9C3110019C704 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0760232D1EE9C3110019C704 /* Greo Test Page.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0760232F1EE9C3110019C704 /* Greo Test Page */ = {
+			isa = PBXGroup;
+			children = (
+				076023431EE9C38A0019C704 /* Supporting files */,
+				076023321EE9C3110019C704 /* ViewController.swift */,
+				07BCC2E41EEA00AC00FD0BD8 /* GreoFollowerTableViewCell.swift */,
+				07BCC2E61EEB437500FD0BD8 /* GreoFollowersTableViewController.swift */,
+				07BCC2E81EEB464900FD0BD8 /* My_Greo_User.swift */,
+				076023341EE9C3110019C704 /* Main.storyboard */,
+			);
+			path = "Greo Test Page";
+			sourceTree = "<group>";
+		};
+		076023431EE9C38A0019C704 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				077ADAF41EF211BB005A5C2C /* Assets.xcassets */,
+				076023301EE9C3110019C704 /* AppDelegate.swift */,
+				076023391EE9C3110019C704 /* LaunchScreen.storyboard */,
+				0760233C1EE9C3110019C704 /* Info.plist */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0760232C1EE9C3110019C704 /* Greo Test Page */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0760233F1EE9C3110019C704 /* Build configuration list for PBXNativeTarget "Greo Test Page" */;
+			buildPhases = (
+				076023291EE9C3110019C704 /* Sources */,
+				0760232A1EE9C3110019C704 /* Frameworks */,
+				0760232B1EE9C3110019C704 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Greo Test Page";
+			productName = "Greo Test Page";
+			productReference = 0760232D1EE9C3110019C704 /* Greo Test Page.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		076023251EE9C3110019C704 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Greo Inc.";
+				TargetAttributes = {
+					0760232C1EE9C3110019C704 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 257U38D7EH;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 076023281EE9C3110019C704 /* Build configuration list for PBXProject "Greo Test Page" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 076023241EE9C3110019C704;
+			productRefGroup = 0760232E1EE9C3110019C704 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0760232C1EE9C3110019C704 /* Greo Test Page */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0760232B1EE9C3110019C704 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0760233B1EE9C3110019C704 /* LaunchScreen.storyboard in Resources */,
+				077ADAF51EF211BB005A5C2C /* Assets.xcassets in Resources */,
+				076023361EE9C3110019C704 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		076023291EE9C3110019C704 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07BCC2E91EEB464900FD0BD8 /* My_Greo_User.swift in Sources */,
+				07BCC2E51EEA00AC00FD0BD8 /* GreoFollowerTableViewCell.swift in Sources */,
+				076023331EE9C3110019C704 /* ViewController.swift in Sources */,
+				07BCC2E71EEB437500FD0BD8 /* GreoFollowersTableViewController.swift in Sources */,
+				076023311EE9C3110019C704 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		076023341EE9C3110019C704 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				076023351EE9C3110019C704 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		076023391EE9C3110019C704 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0760233A1EE9C3110019C704 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0760233D1EE9C3110019C704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0760233E1EE9C3110019C704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		076023401EE9C3110019C704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 257U38D7EH;
+				INFOPLIST_FILE = "Greo Test Page/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Julien.Greo-Test-Page";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		076023411EE9C3110019C704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 257U38D7EH;
+				INFOPLIST_FILE = "Greo Test Page/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Julien.Greo-Test-Page";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		076023281EE9C3110019C704 /* Build configuration list for PBXProject "Greo Test Page" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0760233D1EE9C3110019C704 /* Debug */,
+				0760233E1EE9C3110019C704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0760233F1EE9C3110019C704 /* Build configuration list for PBXNativeTarget "Greo Test Page" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				076023401EE9C3110019C704 /* Debug */,
+				076023411EE9C3110019C704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 076023251EE9C3110019C704 /* Project object */;
+}
